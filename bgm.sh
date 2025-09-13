@@ -11,7 +11,7 @@ adb tcpip 5555
 sleep 3
 adb connect "${PHONE_IP}:5555"
 
-declare JAR_PATH="/home/mrp/snap/android-sdk/target/bgm-1.0.jar"
+declare JAR_PATH="/home/mrp/Projects/BGM/target/bgm-1.0.jar"
 declare JAR_CMD="java -jar $JAR_PATH"
 declare JAR_PID
 
